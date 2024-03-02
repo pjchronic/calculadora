@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="./assets/styles/Normalize.css" />
+    <link rel="stylesheet" href="./assets/styles/base.css" />
+    <link rel="stylesheet" href="./assets/styles/vars.css" />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="header_calculator">
+        <label for="panel">Resultado</label>
+        <input type="text" name="painel" id="panel" />
+      </div>
+
+      <section class="keyboard">
+        <div class="keyboard__numbers">
+          <button class="btn__keyboard">9</button>
+          <button class="btn__keyboard">8</button>
+          <button class="btn__keyboard">7</button>
+          <button class="btn__keyboard">6</button>
+          <button class="btn__keyboard">5</button>
+          <button class="btn__keyboard">4</button>
+          <button class="btn__keyboard">3</button>
+          <button class="btn__keyboard">2</button>
+          <button class="btn__keyboard">1</button>
+          <button class="btn__keyboard">0</button>
+          <button class="btn__key__op" id="clean">
+            <span class="fa-solid fa-trash-can"></span>
+          </button>
+        </div>
+
+        <div class="keyboard__operators">
+          <button class="btn__key__op" id="soma">
+            <span class="fa-solid fa-plus"></span>
+          </button>
+          <button class="btn__key__op" id="subtracao">
+            <span class="fa-solid fa-minus"></span>
+          </button>
+          <button class="btn__key__op" id="multiplicacao">
+            <span class="fa-solid fa-xmark"></span>
+          </button>
+          <button class="btn__key__op" id="divisao">
+            <span class="fa-solid fa-divide"></span>
+          </button>
+          <button class="btn__key__op" id="result">
+            <span class="fa-solid fa-equals"></span>
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <script
+      src="https://kit.fontawesome.com/8c8937366d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/scripts/script.js"></script>
+  </body>
+</html>

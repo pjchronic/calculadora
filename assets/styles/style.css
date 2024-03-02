@@ -1,0 +1,109 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  background-color: var(--verde-3);
+  padding: 2rem;
+  width: 20rem;
+  height: 30rem;
+  border-radius: 5%;
+  box-shadow: 0.5rem 0.5rem 0.2rem rgba(0, 0, 0, 0.6);
+}
+
+.header_calculator {
+  width: 18rem;
+  height: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.header_calculator label {
+  align-self: flex-end;
+}
+
+.header_calculator #panel {
+  width: 18rem;
+  height: 3rem;
+  font-family: "kode_mono";
+  font-weight: 800;
+  color: var(--branco);
+  text-align: right;
+  background-color: var(--verde-4);
+  box-shadow: inset 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.8);
+}
+
+.keyboard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  width: 18rem;
+  height: 19rem;
+  border-radius: 3%;
+  box-shadow: inset 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.5);
+}
+
+.keyboard__operators {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.btn__key__op {
+  background-color: var(--verde-3);
+  box-shadow: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.5);
+  border: 0.1rem solid var(--branco);
+  color: var(--branco);
+  width: 4rem;
+  height: 2.5rem;
+}
+
+#result {
+  width: 4rem;
+  height: 3.3rem;
+}
+
+#clean {
+  width: 7.5rem;
+  height: 3.5rem;
+  font-size: 2rem;
+}
+
+.keyboard__numbers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.btn__keyboard {
+  background-color: var(--verde-3);
+  box-shadow: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.5);
+  border: 0.1rem solid var(--branco);
+  color: var(--branco);
+  width: 3.5rem;
+  height: 3.5rem;
+  font-size: 1.7rem;
+}
+
+.btn__keyboard:hover {
+  background-color: var(--verde-2);
+}
+
+.btn__keyboard:active {
+  box-shadow: inset 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.5);
+  background-color: var(--verde-4);
+}
+
+.btn__key__op:hover {
+  background-color: var(--verde-2);
+}
+
+.btn__key__op:active {
+  box-shadow: inset 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.5);
+  background-color: var(--verde-4);
+}

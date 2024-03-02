@@ -1,0 +1,18 @@
+@import url(../fonts/lato.css);
+@import url(../fonts/kode_mono.css);
+
+* {
+  box-sizing: border-box;
+  font-family: "lato";
+}
+
+body {
+  background: var(--background);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--preto);
+}
